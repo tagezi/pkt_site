@@ -19,12 +19,6 @@ data:
         primary: category
         truncate_on_force:
             - modCategoryClosure
-    quip_comments:
-        class: quipComment
-        package: quip
-        primary: [thread, id]
-        truncate_on_force: 
-            - quipCommentClosure
     templates:
         class: modTemplate
         primary: templatename
@@ -112,13 +106,6 @@ data:
         primary:
             - dashboard
             - widget
-    cb_fields:
-        class: cbField
-        primary: name
-        package: contentblocks
-    cb_layouts:
-        class: cbLayout
-        primary: name
 packages:
     modx.com:
         service_url: http://rest.modx.com/extras/

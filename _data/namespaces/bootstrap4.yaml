@@ -1,0 +1,3 @@
+name: bootstrap4
+path: '{core_path}components/bootstrap4/'
+assets_path: '{assets_path}components/bootstrap4/'
